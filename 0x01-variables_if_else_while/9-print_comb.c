@@ -10,13 +10,16 @@ int main(void)
 {
 	int ch = '1' - 1;
 
-	while (ch <= '8')
+	while (ch <= '9')
 	{
 		putchar(ch);
-		putchar(44);
-		putchar(32);
+		if(ch != '9')
+		{
+			putchar(44);
+			putchar(32);
+		}
 		ch++;
 	}
-	putchar('9');
+	putchar('\n');
 	return (0);
 }
