@@ -10,7 +10,7 @@ int main(void)
 {
 	char ch = 'a';
 
-	while (ch <= 'd')
+	while (ch <= 'z')
 	{
 		if (ch == 'e' || ch == 'q')
 			ch++;
