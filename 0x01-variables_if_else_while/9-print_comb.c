@@ -17,6 +17,6 @@ int main(void)
 		putchar(32);
 		ch++;
 	}
-	putchar('9''\n');
+	putchar('9');
 	return (0);
 }
