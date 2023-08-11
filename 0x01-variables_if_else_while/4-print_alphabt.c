@@ -12,18 +12,8 @@ int main(void)
 
 	while (ch <= 'd')
 	{
-		putchar(ch);
-		ch++;
-	}
-	ch++;
-	while (ch <= 'p')
-	{
-		putchar(ch);
-		ch++;
-	}
-	ch++;
-	while (ch <= 'z')
-	{
+		if (ch == 'e' || ch == 'q')
+			ch++;
 		putchar(ch);
 		ch++;
 	}
