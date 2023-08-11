@@ -10,7 +10,7 @@ int main(void)
 {
 	int ch = '1' - 1;
 
-	while (ch < '9')
+	while (ch <= '9')
 	{
 		putchar(ch);
 		ch++;
