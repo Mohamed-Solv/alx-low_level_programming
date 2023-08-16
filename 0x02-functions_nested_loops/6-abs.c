@@ -1,24 +1,23 @@
 #include "main.h"
 /**
  * _abs - check number
- * @n: the signed number
+ * @i: the signed number
  * Description: 'prints _putchar too stdout'
  * Return: always 0
  */
-int _abs(int n);
+int _abs(int i);
 {
 	if (n > 0)
 	{
-		_putchar('n');
+		return (n);
 	}
 	if (n == 0)
 	{
-		_putchar('0');
+		return (0);
 	}
 	else
 	{
-		n = n * (-1);
-		_putchar('n');
+		return (n * (-1));
 	}
 	_putchar('\n');
 }
