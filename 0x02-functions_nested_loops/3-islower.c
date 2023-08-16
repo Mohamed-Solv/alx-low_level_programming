@@ -1,15 +1,13 @@
 #include "main.h"
 /**
  * _islower - check alphabet
- * @a: the character from ascii
+ * @c: the character from ascii
  * Description: 'prints _putchar too stdout'
  * Return: always 0
  */
-int _islower(int a)
+int _islower(int c)
 {
-	int a;
-
-	if (a <= 97 && a >= 122)
+	if (c <= 97 && c >= 122)
 	{
 		return (1);
 	}
