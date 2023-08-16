@@ -7,17 +7,17 @@
  */
 int _abs(int i);
 {
-	if (n > 0)
+	if (i > 0)
 	{
-		return (n);
+		return (i);
 	}
-	if (n == 0)
+	if (i == 0)
 	{
 		return (0);
 	}
 	else
 	{
-		return (n * (-1));
+		return (i * (-1));
 	}
 	_putchar('\n');
 }
