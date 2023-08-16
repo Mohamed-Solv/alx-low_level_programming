@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_sign - check number
+ * _abs - check number
  * @n: the signed number
  * Description: 'prints _putchar too stdout'
  * Return: always 0
  */
-int print_sign(int n)
+int _abs(int n);
 {
 	if (n > 0)
 	{
