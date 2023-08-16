@@ -1,25 +1,28 @@
 #include "main.h"
 /**
- * print_last_digit - check number
- * @j: the signed number
+ * jack_bauer - check number
  * Description: 'prints _putchar too stdout'
  * Return: always 0
  */
-int print_last_digit(int j)
+void jack_bauer(void)
 {
-	int l;
+	int a, b, c, d;
 
-	l = j % 10;
-
-	if (j < 0)
+	for (a = 0; a <= 2; a++)
 	{
-		_putchar(-l + 48);
-		return (-l);
+		for (b = 0; b <= 9; b++)
+		{
+			for (c = 0; c <= 5; c++)
+			{
+				if (a >= 2 && b >= 4)
+					break;
+				_putchar(a + 48);
+				_putchar(b + 48);
+				_putchar(58);
+				_putchar(c + 48);
+				_putchar(d + 48);
+				_putchar('\n');
+			}
+		}
 	}
-	else
-	{
-		_putchar(l + 48);
-		return (l);
-	}
-	_putchar('\n');
 }
