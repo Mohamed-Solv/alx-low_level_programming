@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - check alphabet
- * @c: the character from ascii
+ * @a: the character from ascii
  * Description: 'prints _putchar too stdout'
  * Return: always 0
  */
