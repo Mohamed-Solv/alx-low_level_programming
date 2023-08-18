@@ -1,10 +1,12 @@
 #include "main.h"
 /**
- * mul - multipl
+ * mul - multiplication
+ *
  * @a: integer one
  * @b: integer two
+ *
  * Description: 'check the alphabet'
- * Return 0
+ * Return: result
  */
 int mul(int a, int b)
 {
