@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul - check alphabet
+ * mul - multipl
  * @a: integer one
  * @b: integer two
  * Description: 'check the alphabet'
@@ -10,5 +10,5 @@ int mul(int a, int b)
 {
 	int a, b;
 
-	return (a*b)
+	return (a * b);
 }
