@@ -1,22 +1,24 @@
 #include "main.h"
+
 /**
- * rev_string - print alphabet
- * @s: vari
- * Description: 'prints _putchar too stdout'
- * Return: nothing
+ * rev_string - Reverses a string
+ * @s: Input string
+ * Return: String in reverse
  */
+
 void rev_string(char *s)
 {
-	int l, i;
-	char temp;
+	char rev = s[0];
+	int counter = 0;
+	int i;
 
-	for (i = 0; s[l] != '\0'; ++l)
-		;
-
-	for (i = 0; i < l / 2; i++)
+	while (s[counter] != '\0')
+	counter++;
+	for (i = 0; i < counter; i++)
 	{
-		temp = s[i];
-		s[i] = s[l - 1 - i];
-		s[l - 1 - i] = temp;
+		counter--;
+		rev = s[i];
+		s[i] = s[counter];
+		s[counter] = rev;
 	}
 }
